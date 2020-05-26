@@ -187,6 +187,17 @@ header nav .nav-links a {
   text-decoration: none;
   color: #212529;
 }
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
 header .welcomeFun {
   margin-top: 0;
   margin-left: 22%;
@@ -203,17 +214,6 @@ header .welcomeFun p {
 header img {
   width: 72%;
   padding-bottom: 2%;
-}
-.footer {
-  width: 100%;
-  border-top: 2px dashed silver;
-  background: #FFEBCD;
-}
-.footer p {
-  text-align: center;
-  color: #212529;
-  font-size: 1.6rem;
-  padding: 20px;
 }
 .home .content-section {
   margin: 30px 0;
