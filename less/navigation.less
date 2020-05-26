@@ -1,24 +1,24 @@
 // Navigation Styles here
 header {
 nav {
-    background-color: @main-bg;
+background-color: @main-bg;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 2%;
+border-bottom: 2px dashed @silver;
+padding-bottom: 2%;
+.nav-links
+{
+    width: 25%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2%;
-    border-bottom: 2px dashed silver;
-    padding-bottom: 2%;
-    .nav-links
-    {
-        width: 25%;
-        display: flex;
-        justify-content: space-around;
+    justify-content: space-around;
 
-        a{
-            font-size: 1.6rem;
-            text-decoration: none;
-            color:@shark;
-        }
-    }//this closes nav links
+    a{
+        font-size: 1.6rem;
+        text-decoration: none;
+        color:@shark;
+    }
+}//this closes nav links
 }//this closes nav
-}
+}//this closes header

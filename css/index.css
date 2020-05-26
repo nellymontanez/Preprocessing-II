@@ -174,7 +174,7 @@ header nav {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 2%;
-  border-bottom: 2px dashed silver;
+  border-bottom: 2px dashed #C0C0C0;
   padding-bottom: 2%;
 }
 header nav .nav-links {
@@ -260,4 +260,15 @@ header img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn button {
+  display: block;
+  background-color: #17A2B8;
+  margin: 0 10px 20px;
+  height: 35px;
+  width: 70%;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
 }
