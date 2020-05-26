@@ -199,20 +199,23 @@ header nav .nav-links a {
   padding: 20px;
 }
 header .welcomeFun {
-  margin-top: 0;
-  margin-left: 22%;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto 3%;
+  padding-left: 5%;
+  display: block;
 }
 header .welcomeFun h2 {
   text-align: left;
   padding-bottom: 2%;
 }
 header .welcomeFun p {
-  width: 72%;
+  width: 90%;
   border-bottom: 2px dashed silver;
   text-align: left;
 }
 header img {
-  width: 72%;
+  width: 90%;
   padding-bottom: 2%;
 }
 @media ( max-width:500px ) {
@@ -220,6 +223,7 @@ header img {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 0 auto;
   }
 }
 .home .content-section {
